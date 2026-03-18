@@ -1,12 +1,37 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora basica</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculadora basica</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <h1>calculadora</h1> 
-  <script src="funcionamento.js"></script>
+  <h1>calculadora</h1>
+
+  <div id="calculadora">
+
+    <div>
+
+      <input type="number" id="n1">
+      <input type="number" id="n2">
+
+    </div>
+
+    <div>
+      <button onclick="soma()">soma</button>
+      <button onclick="sub()">subtração</button>
+      <button onclick="div()">divisão</button>
+      <button onclick="mult()"> multiplicação</button>
+
+    </div>
+
+    <p>Resultado: <span id="Resultado"></span></p>
+
+
+  </div>
 </body>
+<script src="funcionamento.js"></script>
+
 </html>
