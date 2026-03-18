@@ -27,7 +27,7 @@ function div() {
     let n1 =  Number(document.getElementById("n1").value);
     let n2 = Number (document.getElementById("n2").value);
 
-    if (n2 === 0) {
+    if (n2 === 0 || n1 === 0) {
         alert("resultado inexistente")
     }
     resultado = n1 / n2;
